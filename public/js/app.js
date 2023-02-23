@@ -1,4 +1,4 @@
-console.log('Client side data is being loaded');
+// console.log('Client side data is being loaded');
 
 fetch('http://localhost:3000/weather?address=!').then((response) => {
         response.json().then((data) => {
